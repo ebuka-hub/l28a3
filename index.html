@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <center>
+        <h2>Javascript Arrow Function</h2>
+        <p>This example shows an Arrow Function with a parameter.</p>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+        <script>
+            
+            add = (a,b,c) => a + b + c;
+            document.getElementById("result1").innerHTML = add(78,8,5);
+
+            multiply = (c,d) => c * d;
+            document.getElementById("result2").innerHTML = multiply(674,4);
+
+            divide = (e,f) => e/f;
+            document.getElementById("result3").innerHTML = divide(458,32);
+
+            subtract = (g,h) => g - h;
+            document.getElementById("result4").innerHTML = subtract(78,8);
+        </script>
+    </center>
+</body>
+</html>
